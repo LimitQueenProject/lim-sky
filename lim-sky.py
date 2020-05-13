@@ -86,25 +86,9 @@ print  """
 \033[1;95m____░█░░█▄█▄█▀▒▀█▄█▄█░░█░ 
 \033[1;95m____██▄▄█▄█▄█▒▒▒█▄█▄█▄▄██ 
 
-tools di kunci, minta ke 089646647191
 """
 
 
-CorrectUsername = "xixixi"
-CorrectPassword = "xixixi"
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;91m📋 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;91m🗝 \x1b[1;95m Tool Password \x1b[1;91m»» \x1b[1;91m")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
-	    time.sleep(1)
-            loop = 'false'
-        else:
-            print "\033[1;96mWrong Password"
-    else:
-        print "\033[1;96mWrong Username"
 
 def login():
 	os.system('clear')
