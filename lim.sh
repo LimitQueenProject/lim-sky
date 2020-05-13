@@ -19,9 +19,9 @@ read -p  "Pilih yang mana : " pil
 
 if [[ $pil -eq 1 ]]; then
 sleep 1
-python2 lim-sky.py
+python2 lim-sky.pyc
 elif [[ $pil -eq 2 ]]; then
-python2 lim-skyv.py
+python2 lim-skyv.pyc
 else
 echo -e "$red pilih yang ada"
 menu
